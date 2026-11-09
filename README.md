@@ -7,13 +7,15 @@ annotation and recording application.
 
 | Platform | Version | Architecture | File |
 | --- | --- | --- | --- |
-| Windows 10/11 | 1.0.0 | x64 | [EasyShot-Setup-1.0.0.exe](https://github.com/Knignt9/easyshot-releases/releases/download/v1.0.0/EasyShot-Setup-1.0.0.exe) |
-| macOS | 1.0.0 | Apple Silicon (arm64) | pending |
+| Windows 10/11 | 1.0.1 | x64 | [EasyShot-Setup-1.0.1.exe](https://github.com/Knignt9/easyshot-releases/releases/download/v1.0.1/EasyShot-Setup-1.0.1.exe) |
+| macOS | 1.0.1 | Apple Silicon (arm64) | pending |
 
-Windows SHA256: `09c0704d4daf3b8bb0e792d9cc420d7454b49e944f43eaae49030191013cc391`
+Windows SHA256: `2e31be04273251c0ae93a12089aa87afff9df199999f7a46505410f341f91caa`
 
-See the [v1.0.0 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.0)
-for assets and per-platform notes.
+See the [v1.0.1 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.1)
+for assets and per-platform notes. The previous
+[v1.0.0 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.0)
+stays available for reference.
 
 ## Repository layout
 
@@ -28,11 +30,17 @@ and platform notes.
 
 ## Platform status
 
-- Windows x64: 1.0.0 evaluation build. The installer is unsigned, so Windows
-  SmartScreen will warn; this is not a production release.
+- Windows x64: 1.0.1 evaluation build with in-app update checks. The installer is
+  unsigned, so Windows SmartScreen will warn; this is not a production release.
 - macOS Apple Silicon: internal evaluation builds; formal Developer ID signing,
   notarization and release acceptance are pending.
 - macOS Intel and Linux: no public builds available.
+
+## Upgrade notes
+
+Windows: run the new installer over the existing installation. It replaces the
+previous version in place, and settings, history and recording projects under
+`%APPDATA%\EasyShot` are preserved. No manual uninstall is needed.
 
 ## Repository scope
 
