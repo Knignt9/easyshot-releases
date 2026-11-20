@@ -7,13 +7,14 @@ annotation and recording application.
 
 | Platform | Version | Architecture | File |
 | --- | --- | --- | --- |
-| Windows 10/11 | 1.0.8 | x64 | [EasyShot-Setup-1.0.8.exe](https://github.com/Knignt9/easyshot-releases/releases/download/v1.0.8/EasyShot-Setup-1.0.8.exe) |
+| Windows 10/11 | 1.0.9 | x64 | [EasyShot-Setup-1.0.9.exe](https://github.com/Knignt9/easyshot-releases/releases/download/v1.0.9/EasyShot-Setup-1.0.9.exe) |
 | macOS | 1.0.1 | Apple Silicon (arm64) | pending |
 
-Windows SHA256: `5a84fe8baeeb20db3f01142226f69953f2773addf68ee830fa1af4cf90fe67ec`
+Windows SHA256: `35fd6e27eb4a80712d67c70848517fbbd2a3ecd9cd87c33ddae93968f6eab6b5`
 
-See the [v1.0.8 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.8)
+See the [v1.0.9 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.9)
 for assets and per-platform notes. The previous
+[v1.0.8 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.8),
 [v1.0.7 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.7),
 [v1.0.6 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.6),
 [v1.0.5 release](https://github.com/Knignt9/easyshot-releases/releases/tag/v1.0.5),
@@ -34,7 +35,7 @@ and platform notes.
 
 ## Platform status
 
-- Windows x64: 1.0.8 evaluation build with in-app update checks. The installer is
+- Windows x64: 1.0.9 evaluation build with in-app update checks. The installer is
   unsigned, so Windows SmartScreen will warn; this is not a production release.
 - macOS Apple Silicon: internal evaluation builds; formal Developer ID signing,
   notarization and release acceptance are pending.
